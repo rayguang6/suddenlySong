@@ -38,7 +38,7 @@
 	$password='7UWqSLB21t'; 
 	$dbname='n4NDrbQHNz'; 
 
-$con = new mysqli_connect($hostname,$username,$password,$dbname); 
+$con =  mysqli_connect($hostname,$username,$password,$dbname); 
 
 if ($con-> connect_errno) { 
 trigger_error('Database connection failed: ' . $con->connect_error); 
